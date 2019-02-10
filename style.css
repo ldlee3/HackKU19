@@ -1,49 +1,78 @@
+html {
+	background-image: url(cat.jpg);
+	background-image: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 body {
-	background-color: lightblue;
+	background-color: #F7882F;
 	font-family: "Courier";
 	font-size: 15px;
 }
 
-div { 
-	border-top-color: coral;
+#container1 {
+	position: relative;
+	text-align: center;
+	float: center;
 }
 
-#container {
+#container2 {
 	position: relative;
-	left: 10%
-	top: 20%
+	background: #F5C02E;
+	padding-bottom: 20px;
+}
+
+#container3 {
+	position: relative;
+	width: 200px;
+	padding-left: 5px;
+}
+
+#definition {
+	text-align: center;
+	color: white;
+	font-size: 25px;
 }
 
 #text {
-	position: absolute;
-	left: 10%;
-	font-size: 20px;
-	color: lightslategrey
+	color: lightslategrey;
+}
+
+#resize {
+	width: 400px;
+	height: 30px;
 }
 
 .button {
-	font-size: 20px;
-	background-color: lightblue; /* #4CAF50; Green */
-  	color: white;
+	font-size: 15px;
+	background-color: #F7C331; /* #4CAF50; Green */
+  	color: 6B7A8F;
 	cursor: pointer;
-	transform: translate(-5%, 450%);
- 	padding: 10px 28px;
-	border-radius: 50%;
-  	box-shadow: 0 6px #999;
+ 	padding: 5px 20px;
 }
 
 .button:hover {background-color: #B0C4DE;}
 
 .button:active {
-  	background-color: darkslategrey; //#1E90FF ;
-  	box-shadow: 0 5px #666;
-  	transform: translateY(455%);
+  	background-color: #DCC7AA; /*#1E90FF*/
 }
 
-#text {
-	color: #00008B !important;
+#contribute {
+	margin-top: 5px;
+	background-color:  #F7882F;
+	color: white;
 }
 
+#heading {
+	padding-top: 10px;
+	color: white !important;
+}
 
-
-<!--img src="./SOMEIMAGE.jpg"-->
+#heading2 {
+	margin-top: 25px;
+	color: white;
+	background: #F5C02E;
+	text-align: center;
+	font-size: 25px;
+}

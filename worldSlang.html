@@ -2,16 +2,27 @@
 	<html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<!--script src="script.js"> </script-->
+		<script src="script.js"> </script>
 	</head>
 		<body>
-		<h1 id="heading">World Slang <br> </h1>
-			<div id="container">
-				<input type='text' placeholder='type a phrase...'> 
-				<div id="definition: "> <br> </div>
+		<h1 id='heading'>&nbsp;#WorldSlang</h1>
+			<div id='container1'> 
+				<input type='text' id='resize' placeholder='type a phrase...'> 
+				<button class="button" onclick="displayText()"> Search </button>
 			</div>
-		<!--button class="button" onclick="displayText()"> Next </button-->
-		<!--button onclick=location.reload> Meme it </button-->
-		
+
+			<div id='heading2'><br>Definition</div>
+			<div id='container2'> 
+				<div id='definition'> <br> </div>
+				<div id='container3'> 
+					<input type='text' id='textbox2' placeholder='new word...'> 
+					<input type='text' id='textbox3' placeholder='definition...'> 
+					<button id="contribute" class="button" onclick="contribute()"> Contribute! </button>
+				</div>
+			</div>
+
+			
+			
 		</body>
 	</html>
+
