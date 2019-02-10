@@ -1,6 +1,6 @@
 var korean = [
-	'?? (dang-geun) : of course',
-	'?? (dwen-jang) : whatever'
+	'당근 (dang-geun) : of course',
+	'됀장 (dwen-jang) : whatever'
 ]
 
 var mandarin = [
