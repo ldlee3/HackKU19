@@ -1,0 +1,49 @@
+body {
+	background-color: lightblue;
+	font-family: "Courier";
+	font-size: 15px;
+}
+
+div { 
+	border-top-color: coral;
+}
+
+#container {
+	position: relative;
+	left: 10%
+	top: 20%
+}
+
+#text {
+	position: absolute;
+	left: 10%;
+	font-size: 20px;
+	color: lightslategrey
+}
+
+.button {
+	font-size: 20px;
+	background-color: lightblue; /* #4CAF50; Green */
+  	color: white;
+	cursor: pointer;
+	transform: translate(-5%, 450%);
+ 	padding: 10px 28px;
+	border-radius: 50%;
+  	box-shadow: 0 6px #999;
+}
+
+.button:hover {background-color: #B0C4DE;}
+
+.button:active {
+  	background-color: darkslategrey; //#1E90FF ;
+  	box-shadow: 0 5px #666;
+  	transform: translateY(455%);
+}
+
+#text {
+	color: #00008B !important;
+}
+
+
+
+<!--img src="./SOMEIMAGE.jpg"-->
